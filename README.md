@@ -81,7 +81,7 @@
   - If you are in a brand's product line view, you can search up a specific model, and it will filter the product line that the model is under.
 - **Manuals:**
   - If a PDF manual exists for a model, it is displayed in an iframe on the right.
-  - The iframe display allows a user to scroll, zoom, download, and print the document. Additionally, it support the cmd + f search functionality.
+  - The iframe display allows a user to scroll, zoom, download, and print the document. Additionally, it supports the cmd + f search functionality.
   - If no manual is available, a message is shown instead.
 - **Recently Viewed Brands:**
   - Brands you click are added to a "Recently Viewed Brands" section for quick access.
