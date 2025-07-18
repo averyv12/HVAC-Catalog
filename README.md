@@ -54,7 +54,7 @@
 ### Installation & Running
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/averyv12/HVAC-Catalog.git
    cd hvac-catalog
    ```
    Altneratively, you can simply download all of the files to your local machine and then run cd hvac-catalog
