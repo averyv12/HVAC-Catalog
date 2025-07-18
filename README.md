@@ -55,7 +55,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/averyv12/HVAC-Catalog.git
-   cd hvac-catalog
+   cd HVAC-Catalog
    ```
    Altneratively, you can simply download all of the files to your local machine and then run cd hvac-catalog
 2. Install dependencies:
