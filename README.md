@@ -13,7 +13,7 @@
   - [Daikin](https://www.daikin.com/products/ac/)
   - [York](https://www.york.com/residential-equipment)
   - And others as available
-- Product manuals (PDFs) for Bryant were sourced from their official product pages. The overall hub for these pages can be found here: https://www.bryant.com/en/us/before-you-buy/system-types/. To get to a specific manual, click on a certain type of hvac, then on the product, and scroll to the bottom where you will see a documents section.
+- Product manuals (PDFs) for Bryant were sourced from their official product pages. The overall hub for these pages can be found [here](https://www.bryant.com/en/us/before-you-buy/system-types/). To get to a specific manual, click on a certain type of hvac, then on the product, and scroll to the bottom where you will see a documents section.
 
 ### Data Structure
 - All data is stored in `src/data/hvacData.json`.
