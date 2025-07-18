@@ -3,6 +3,9 @@
 
 import React, { useState } from "react";
 
+// Dictionary of support phone numbers for each company
+const phoneNumbers = { Bryant: "1-800-428-4326" };
+
 const ModelList = ({ models, onBack, seriesName, searchQuery, brand }) => {
   const [selectedModel, setSelectedModel] = useState(null);
   // List of available manuals (update as needed). This way we can display 'No manual available' when appropriate
@@ -41,7 +44,8 @@ const ModelList = ({ models, onBack, seriesName, searchQuery, brand }) => {
 
   // The second div handles the right side of the screen, where manual pdfs are displayed, if available
   // It displays an iframe containing the pdf if there is a pdf for that specific model.
-  // If there is not a pdf for that model, there is not iframe display, and instead 'No manual available' is displayed
+  // If there is not a pdf for that model, there is not iframe display, and instead 
+  // 'No manual available' is displayed with contact support for the company
   return (
     <div style={{ display: 'flex', flexDirection: 'row', width: '100%', height: '100%' }}>
       <div style={{ flex: 1, minWidth: 0, maxWidth: '50vw', overflowY: 'auto', boxSizing: 'border-box', paddingLeft: '40px' }}>
@@ -88,7 +92,7 @@ const ModelList = ({ models, onBack, seriesName, searchQuery, brand }) => {
       </div>
       {selectedModel && (
         <div style={{ flex: 1, minWidth: 0, maxWidth: '50vw', padding: '20px', boxSizing: 'border-box', paddingRight: '60px' }}>
-          <h3>Manual for {selectedModel.model}</h3>
+          <h3>Owner's Manual for {selectedModel.model}</h3>
           {manualPdf ? (
             <iframe
               src={manualPdf}
@@ -99,7 +103,7 @@ const ModelList = ({ models, onBack, seriesName, searchQuery, brand }) => {
             />
           ) : (
             <div style={{ color: '#b00', fontWeight: 'bold', padding: '32px', textAlign: 'center' }}>
-              No manual available
+              No manual available. Please contact {brand} directly at {phoneNumbers[brand]} for assistance.
             </div>
           )}
         </div>

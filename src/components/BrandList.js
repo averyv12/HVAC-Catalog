@@ -39,10 +39,25 @@ const logoMap = {
 };
 
 const BrandList = ({ data, searchQuery, onSelectBrand }) => {
-  // Filter brands based on the search query
-  const filteredBrands = Object.keys(data).filter((brand) =>
-    brand.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  // Filter brands based on the search query (brand name, product line, or any model name)
+  const filteredBrands = Object.keys(data).filter((brand) => {
+    const q = searchQuery.toLowerCase();
+    const brandMatch = brand.toLowerCase().includes(q);
+    // Check if any product line (series) name matches
+    const seriesNames = Object.keys(data[brand]);
+    const seriesMatch = seriesNames.some(series => series.toLowerCase().includes(q));
+    // Check if any model in any series matches
+    const seriesList = Object.values(data[brand]);
+    const modelMatch = seriesList.some(seriesArr =>
+      Array.isArray(seriesArr) && seriesArr.some(modelObj =>
+        // Check all string values in the model object for a match
+        Object.values(modelObj).some(val =>
+          typeof val === 'string' && val.toLowerCase().includes(q)
+        )
+      )
+    );
+    return brandMatch || seriesMatch || modelMatch;
+  });
 
   // Each brand should be its own clickable box, with the company logo on the left side of the box,
   // the company name to the right of that, and an arrow on the right side of the box
