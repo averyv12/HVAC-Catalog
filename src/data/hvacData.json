@@ -1,0 +1,509 @@
+{
+    "Bryant": {
+      "Preferred Series Packaged": [
+        {
+          "model": "577E",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V or 460V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "607E",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V or 460V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "605E",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V or 460V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "677E",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V or 460V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "675E",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V or 460V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "707E",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V or 460V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        }
+      ],
+      "Legacy Line Packaged": [
+        {
+          "model": "575C",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V",
+              "capacity": "3-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "675C",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V",
+              "capacity": "3-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "605C",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V",
+              "capacity": "3-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "705C",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            },
+            {
+              "type": "3-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        }
+      ],
+      "Base Line Packaged": [
+        {
+          "model": "PA4Z",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "PA5Z",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "PH4Z",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "PH5Z",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "2-5 tons"
+            }
+          ]
+        }
+      ],
+      "Evolution Ductless Mini Split": [
+        {
+          "model": "37MPRA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "0.5-1.5 tons"
+            }
+          ]
+        },
+        {
+          "model": "37MAHA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "115V or 208/230V",
+              "capacity": "0.5-3 tons"
+            }
+          ]
+        },
+        {
+          "model": "37MGHA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "1.5-5 tons"
+            }
+          ]
+        }
+      ],
+      "Preferred Series Ductless": [
+        {
+          "model": "37MBRA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "3-4.8 tons"
+            }
+          ]
+        },
+        {
+          "model": "37MGRA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "1.5-5 tons"
+            }
+          ]
+        },
+        {
+          "model": "37MARA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "115V or 208/230V",
+              "capacity": "0.75-3 tons"
+            }
+          ]
+        }
+      ],
+      "Legacy Line Ductless": [
+        {
+          "model": "37MHRAQ",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "1.5-5 tons"
+            }
+          ]
+        }
+      ],
+      "Light Commercial Ductless": [
+        {
+          "model": "37MBHA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "3-4.8 tons"
+            }
+          ]
+        },
+        {
+          "model": "37MBRA",
+          "phases": [
+            {
+              "type": "1-phase",
+              "voltage": "208/230V",
+              "capacity": "3-4.8 tons"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Carrier": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Trane": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+    
+    "Goodman": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Lennox": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "York UPG": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Rheem": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Daikin": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "American Standard": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Amana": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "LG": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Mitsubishi Electric": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Samsung": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+    
+    "Bosch Thermotechnik": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    },
+
+    "Frigidaire": {
+      "This is a placeholder, replace this with actual data": [
+        {
+          "model": "Test",
+          "phases": [
+            {
+              "type": "Test",
+              "voltage": "Test",
+              "capacity": "Test"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
