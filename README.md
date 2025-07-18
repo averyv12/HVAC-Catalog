@@ -78,7 +78,7 @@
 - **Search:**
   - The search bar at the top filters brands, product lines, or models depending on the current view.
   - Search is case-insensitive and filters results as you type.
-  - If you are in a brand's product line view, you can search up a specific model, and it will filter the product line that the model is under.
+  - You are able to search within your current page's context. For example, if you are on the brand page, you can search for specific product line or model, and the correct brand will get filtered. When the user is on the product line page, they can either search a product line to narrow down the results, or they can search for a specific model within a product line, and the search will narrow down the product lines that contain the searched on model.
 - **Manuals:**
   - If a PDF manual exists for a model, it is displayed in an iframe on the right.
   - The iframe display allows a user to scroll, zoom, download, and print the document. Additionally, it supports the cmd + f search functionality.
